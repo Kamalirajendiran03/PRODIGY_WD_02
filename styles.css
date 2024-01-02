@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: url('https://i.pinimg.com/564x/65/5e/49/655e49cbaee57ad804c55b65fca6d90d.jpg') center center/cover no-repeat; /* Replace 'your-image-url.jpg' with the actual URL or path to your image */
+  }
+  
+  .stopwatch {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for better readability */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #display {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  button {
+    font-size: 1em;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+  }
+  
+  #laps {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  #laps li {
+    margin: 5px 0;
+    padding: 8px;
+    background-color: #ddd;
+    border-radius: 5px;
+    font-size: 0.9em;
+  }
+  
+  #laps li:nth-child(even) {
+    background-color: #eee;
+  }
+  
